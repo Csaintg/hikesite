@@ -1,13 +1,25 @@
-.container2 {
+.navbar {
+    display: flex;
+    background-color: gray;
+    justify-content: flex-start;
+    margin-right: 20px;  
+}
+.navbar p {
+    margin: 5px;
+    color: white
+    font-family: 'Muli', helvetica sans-serif;
+}
+
+.container1 {
     display: flex;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    flex-direction: column;
+    flex-direction: row;
+}
+.right {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-
+    flex-direction: column;
+    font-size: 18px;
 }
 .stream {
     background-image: url('images/stream420x240.jpg');
@@ -16,12 +28,34 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    
 }
+
 .relax {
     background-image: url('images/relax420x237.jpg');
     width: 420px;
-    height: 240px;
+    height: 237px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+}
+
+.desert {
+    background-image: url('images/desert780x477.jpg');
+    font-size: 25px;
+    width: 780px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;   
+}
+
+.desert h2 {
+    border-bottom: solid 1px goldenrod;
+    width: 700px; 
+    padding-bottom:30px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
