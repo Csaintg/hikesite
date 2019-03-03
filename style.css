@@ -1,15 +1,33 @@
+a {
+    text-decoration: none;
+}
+.photostrip {
+    background-color: white;
+    display: flex;
+    padding: 36px 30px 60px 45px;
+    width: 1120px;
+}
+.photostrip img {
+    display: flex;
+    width: 300px;
+    margin-right: 5px;
+}
+body {
+    background-color: #333a35;
+}
 .fontawesome {
-    font-size: 24px;
-    color: orange;
     margin-top: 5px;
+    display: flex;  
 }    
 i {
-    margin-left: 40px;
+    font-size: 24px;
+    color: orange;
+    margin-left: 15px;
+    display: flex;
 }
 .logo {
-    height: 45px;
-    width: 45px;
-    margin-left: 30px;
+    height: 50px;
+    width: 50px;
 }
 .navbar {
     display: flex;
@@ -19,16 +37,16 @@ i {
     padding-bottom: 10px; 
     align-items: center;
 }
-.navbar p {
+.navbar a {
     margin: 5px;
     color: white;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     display: flex;
-    margin-left: 35px;
+    margin-left: 30px;
     text-transform: uppercase;
 }
-.navbar p:hover { 
+.navbar a:hover { 
    color:#eca419;
   }
 .container1 {
