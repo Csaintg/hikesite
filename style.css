@@ -1,16 +1,45 @@
-a {
-    text-decoration: none;
+span {
+    margin-top: 180px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.recipes {
+    background-image: url(images/recipes.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.tent {
+    background-image: url(images/tent.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.candles {
+    background-image: url(images/candles.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+}
+.backpacks {
+    background-image: url(images/backpacks.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
 }
 .photostrip {
-    background-color: white;
-    display: flex;
-    padding: 36px 30px 60px 45px;
-    width: 1120px;
+        display: flex;
+        padding: 36px 30px 0px 38px;
+        width: 1123px;
+        background-color: white;  
+        border-bottom: solid 40px rgb(211, 205, 191); 
 }
-.photostrip img {
-    display: flex;
-    width: 300px;
-    margin-right: 5px;
+a {
+    text-decoration: none;
 }
 body {
     background-color: #333a35;
