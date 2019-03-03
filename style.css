@@ -1,15 +1,36 @@
+.fontawesome {
+    font-size: 24px;
+    color: orange;
+    margin-top: 5px;
+}    
+i {
+    margin-left: 40px;
+}
+.logo {
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+}
 .navbar {
     display: flex;
-    background-color: gray;
-    justify-content: flex-start;
-    margin-right: 20px;  
+    background-color: #333a35;
+    justify-content: flex-start; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    align-items: center;
 }
 .navbar p {
     margin: 5px;
-    color: white
-    font-family: 'Muli', helvetica sans-serif;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-left: 35px;
+    text-transform: uppercase;
 }
-
+.navbar p:hover { 
+   color:#eca419;
+  }
 .container1 {
     display: flex;
     color: white;
@@ -29,7 +50,6 @@
     align-items: flex-end;
     justify-content: flex-start;
 }
-
 .relax {
     background-image: url('images/relax420x237.jpg');
     width: 420px;
@@ -38,7 +58,6 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
-
 .desert {
     background-image: url('images/desert780x477.jpg');
     font-size: 25px;
@@ -48,7 +67,6 @@
     justify-content: center;
     align-items: flex-end;   
 }
-
 .desert h2 {
     border-bottom: solid 1px goldenrod;
     width: 700px; 
