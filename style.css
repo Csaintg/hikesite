@@ -1,3 +1,37 @@
+.badge {
+    position: absolute;
+    left: 240px;
+}
+.desertlink,
+.relaxlink,
+.streamlink {
+    text-decoration: none;
+    color: white;
+}
+.div1 h2 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 58px;
+}
+.div2 h2 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 55px;
+}
+.div3 h2 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 55px;
+}
+.div4 h2 {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 53px;
+}
 .one {
     display: flex;
     background-color: white;
@@ -35,13 +69,9 @@
 }
 .columns h1 {
     font-family: "Muli", sans-serif;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 24px; 
     text-transform: uppercase;
-    text-decoration: none;
-    margin-bottom: -2px;
-    margin-top: 80px;
-    text-align: center;
+    margin: 40px 0px -2px 30px;
 }
 .columns p {
     font-family: "Muli", sans-serif;
@@ -49,7 +79,7 @@
     font-weight: bold;
     color: orange;
     text-transform: uppercase;
-    margin-bottom: -2px;
+    margin-bottom: -18px;
     margin-top: 80px;
     text-align: center;
 }
@@ -84,8 +114,13 @@ figcaption {
     margin-top: 2px;
     padding-bottom: 15px;
 }
-a {
+.div1 a,
+.div2 a,
+.div3 a,
+.div4 a {
     text-decoration: none;
+    color: black;
+
 }
 body {
     background-color: #333a35;
@@ -120,7 +155,13 @@ i {
     display: flex;
     margin-left: 30px;
     text-transform: uppercase;
+    text-decoration: none;
 }
+ .fab:hover, 
+ .fas:hover { 
+    color: white;
+}
+
 .navbar a:hover { 
    color:#eca419;
   }
@@ -167,7 +208,7 @@ i {
 .desert h2 {
     border-bottom: solid 1px goldenrod;
     width: 700px; 
-    margin-top: 275px;
+    margin-top: 300px;
     margin-bottom: 70px;
     margin-left: 45px;
     text-align: center;
